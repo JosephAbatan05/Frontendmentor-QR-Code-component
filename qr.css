@@ -1,0 +1,86 @@
+@import url(https://fonts.google.com/specimen/Outfit);
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+.container{
+   max-width: 100%;
+height: 100%;
+padding: 100px 100px;
+background:  hsl(220, 15%, 55%);
+
+}
+.box{
+    margin: 0 auto;
+    text-align: center;
+    background:  hsl(0, 0%, 100%);
+
+
+    height: 100vh;
+    width: 40%;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 0.5 solidgrey;
+}
+.box-logo{
+    max-width: 100%;
+    text-align: center;
+    margin: inherit;
+    
+}
+.img{
+    width :375px;
+    margin:20px;
+    border-radius: 5px;
+}
+.title{
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+} 
+p{
+    text-align: center;
+} 
+.qr-scan{
+    flex-wrap:wrap;
+    opacity: 0.5;
+    text-align: center;
+    padding: 5px;
+}
+/* medi query for mobile deices*/
+@media (min-width:600px){
+    .qr-scan{
+        font-size:1.25rem;
+    background:pink; 
+}
+
+    }
+    .title{
+        font-size: 1.5rem;
+        color: blue;
+
+    }
+/* medi query for desktop deices*/
+
+@media (min-width:992px){
+    .title{
+      font-size: 1.5rem;
+      line-height: 1.3;
+      color: black;
+   
+  }
+  .qr-scan{
+    font-size: 1.25rem;
+    color: black;
+    background: white;
+
+}
+}
+
